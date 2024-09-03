@@ -10,5 +10,5 @@ media = sum(faturamentos) / len(faturamentos)
 diasmedia = sum(valor > media for valor in faturamentos)
 
 print('Menor faturamento: R${}' .format(menor))
-print('Maior faturamento: R${:.2f}' .format(maior))
+print('Maior faturamento: R${}' .format(maior))
 print('Dias acima da média: {}' .format(diasmedia))
