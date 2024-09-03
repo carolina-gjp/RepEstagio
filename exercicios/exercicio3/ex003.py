@@ -1,6 +1,6 @@
 import json
 
-with open('exercicio3/faturamento.json', 'r') as file:
+with open('faturamento.json', 'r') as file:
     faturamentos = [dia['valor'] for dia in json.load(file) if dia['valor'] > 0]
 
 menor = min(faturamentos)
